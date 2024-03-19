@@ -5,9 +5,13 @@ Hooks allow for cleaner and more concise function components, encourage reusable
 Below are react projects based on the hooks I've learned and here I effectively apply them.
 
 ## useState
+# The useState hook in React allows you to add state to function components. To use it, import useState from React and call it inside your component. It returns an array with two elements: the current state value and a function that updates it. You can use useState anywhere within a function component but not inside loops, conditions, or nested functions. Initialize it with a default value. It's crucial for managing data that changes over time within your component.
+
 1. Birthday Reminder
 
 ## useEffect and Conditional Rendering
+# The useEffect hook in React is used for side effects in function components. It can replace lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount in class components. You use it by calling useEffect() and passing a function where you place your side effect logic. The second argument is a dependency array; useEffect runs after every render by default, but with this array, you can control when it runs based on changes to specific values. It's used for data fetching, subscriptions, or manually changing the DOM.
+
 2. Tours
 3. Reviews
 4. Questions
