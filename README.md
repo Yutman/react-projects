@@ -2,7 +2,6 @@
 #### They were introduced in React 16.8 to enable state and other React features without writing a class. 
 #### The most commonly used hooks are useState for managing state, useEffect for side effects, and useContext for accessing the context API.
 #### Hooks allow for cleaner and more concise function components, encourage reusable code, and make it easier to follow the flow of a component's logic.
-#### Below are react projects based on the hooks I've learned and here I effectively apply them.
 
 # useState
 #### The useState hook in React allows you to add state to function components. 
@@ -11,6 +10,7 @@
 #### You can use useState anywhere within a function component but not inside loops, conditions, or nested functions. Initialize it with a default value. 
 #### It's crucial for managing data that changes over time within your component.
 
+#### Project:
 1. Birthday Reminder
 
 # useEffect and Conditional Rendering
@@ -20,6 +20,7 @@
 #### The second argument is a dependency array; useEffect runs after every render by default, but with this array, you can control when it runs based on changes to specific values. 
 #### It's used for data fetching, subscriptions, or manually changing the DOM.
 
+#### Projects: 
 2. Tours
 3. Reviews
 4. Questions
