@@ -18,7 +18,8 @@
 #### It can replace lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount in class components. 
 #### You use it by calling useEffect() and passing a function where you place your side effect logic. 
 #### The second argument is a dependency array; useEffect runs after every render by default, but with this array, you can control when it runs based on changes to specific values. 
-#### A cleanup return function is necessary when your effect sets up a subscription, listener, or any side effects that should be cleaned up to prevent memory leaks and performance issues. #### This cleanup function is returned at the end of useEffect to remove those side effects when the component unmounts or before the effect runs again.
+#### A cleanup return function is necessary when your effect sets up a subscription, listener, or any side effects that should be cleaned up to prevent memory leaks and performance issues.
+#### This cleanup function is returned at the end of useEffect to remove those side effects when the component unmounts or before the effect runs again.
 #### It's used for data fetching, subscriptions, or manually changing the DOM.
 
 #### Projects: 
