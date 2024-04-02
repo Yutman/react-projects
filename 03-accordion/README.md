@@ -13,8 +13,6 @@ Navigation menus, to categorize options or links, so the user can expand the cat
 
 https://www.uidesigndaily.com/posts/sketch-accordion-website-day-1175
 
-### React Icons
-
 ```
 npm install react-icons --save
 ```
