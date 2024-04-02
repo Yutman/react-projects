@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import data from './data';
 import SingleQuestion from './Question';
 function App() {
-const [questions, setQuestions] = useState(data);
+const [questions] = useState(data);
 
   return (
   <main>
@@ -16,7 +16,7 @@ const [questions, setQuestions] = useState(data);
     </div>
   </main>
   );
-}
+};
 
 
 export default App;
