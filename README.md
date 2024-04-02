@@ -63,4 +63,7 @@ Cocktails
 
 
 NB: To resolve ERR_OSSL_EVP_UNSUPPORTED error, which is triggered by changes in OpenSSL 3.0 used by Node.js I used the following command in my terminal:
-$env:NODE_OPTIONS="--openssl-legacy-provider"; & npm start as two separate commands
+```
+$env:NODE_OPTIONS="--openssl-legacy-provider" 
+npm start
+```
