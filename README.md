@@ -44,6 +44,7 @@
 5. Menu
 6. Tabs
 7. Slider
+8. Sidebar
 
 # Forms
 9. Lorem Ipsum Generator
