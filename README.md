@@ -44,7 +44,8 @@
 5. Menu
 6. Tabs
 7. Slider
-8. Forms
+
+# Forms
 9. Lorem Ipsum Generator
 10. Color Shades Generator
 11. Grocery Bud
