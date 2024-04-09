@@ -1,6 +1,8 @@
 # Reviews Slider
 
-The Reviews Slider is an engaging, dynamic slider application built with React. It displays reviews from different people, allowing users to cycle through them either automatically or using navigation buttons. This project demonstrates the use of React hooks, conditional rendering, and interval-based navigation to create an interactive user experience.
+The Reviews Slider is a dynamic slider application built with React.
+It displays reviews from different people, allowing users to cycle through them either automatically or using navigation buttons.
+This project demonstrates the use of React hooks, conditional rendering, and interval-based navigation to create an interactive user experience.
 
 ## Features
 
