@@ -61,7 +61,7 @@
 # useReducer and useContext
 14. Cart
 15. React Router and useCallback
-16. -Cocktails
+16. Cocktails
 
 
 NB: To resolve ERR_OSSL_EVP_UNSUPPORTED error, which is triggered by changes in OpenSSL 3.0 used by Node.js I used the following command in my terminal:
