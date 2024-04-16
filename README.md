@@ -11,7 +11,7 @@
 #### It's crucial for managing data that changes over time within your component.
 
 #### Project:
-1. Birthday Reminder
+00. Birthday Reminder
 
 # useEffect and Conditional Rendering
 #### The useEffect hook in React is used for side effects in function components. 
@@ -38,30 +38,30 @@
 #### It's used for data fetching, subscriptions, or manually changing the DOM.
 
 #### Projects: 
-2. Tours
-3. Reviews
-4. Questions
-5. Menu
-6. Tabs
-7. Slider
-8. Sidebar
+01. Tours
+02. Reviews
+03. Questions
+04. Menu
+05. Tabs
+06. Slider
+07. Sidebar
 
 # Forms
-9. Lorem Ipsum Generator
-10. Color Shades Generator
-11. Grocery Bud
+08. Lorem Ipsum Generator
+09. Color Shades Generator
+10. Grocery Bud
 
 # useRef
-12. Navbar
+11. Navbar
 
 # useContext
-13. Modal And Sidebar
-14. Stripe Submenus
+12. Modal And Sidebar
+13. Stripe Submenus
 
 # useReducer and useContext
-15. Cart
-React Router and useCallback
-Cocktails
+14. Cart
+15. React Router and useCallback
+16. -Cocktails
 
 
 NB: To resolve ERR_OSSL_EVP_UNSUPPORTED error, which is triggered by changes in OpenSSL 3.0 used by Node.js I used the following command in my terminal:
