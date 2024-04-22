@@ -52,6 +52,12 @@
 10. Grocery Bud
 
 # useRef
+#### The useRef Hook allows you to persist values between renders.
+#### It can be used to store a mutable value that does not cause a re-render when updated. This is because changing the current property of the useRef object doesn't trigger a re-render
+#### It can be used to access a DOM element directly within functional components. This is useful for tasks like focusing an input field, measuring an element's dimensions, or triggering imperative DOM operations.
+#### For example, we can we can access and manipulate DOM elements directly without needing to use traditional DOM manipulation methods like document.getElementById().
+#### The useRef Hook can also be used to keep track of previous state values. This is because we are able to persist useRef values between renders.
+
 11. Navbar
 
 # useContext
