@@ -68,6 +68,8 @@
 #### useReducer is a hook in React that is used for managing complex state logic in your components.
 #### It is an alternative to useState that is more suitable for managing state in scenarios where the state logic is complex or involves multiple sub-values, or when the next state depends on the previous one.
 #### useReducer can help to avoid duplicating state logic across multiple useState calls by encapsulating the logic within the reducer function.
+#### const [state, dispatch] = useReducer(reducer, initialState) accepts 2 arguments: the reducer function and the initial state. Also, the reducer returns an array of 2 items: the current state and the dispatch function.
+#### To update the state call dispatch(action) with the appropriate action object. The action object is then forwarded to the reducer() function that updates the state. If the state has been updated by the reducer, then the component re-renders, and [state, ...] = useReducer(...) hook returns the new state value.
 
 14. Cart
 15. React Router and useCallback
