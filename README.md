@@ -65,6 +65,10 @@
 13. Stripe Submenus
 
 # useReducer and useContext
+#### useReducer is a hook in React that is used for managing complex state logic in your components.
+#### It is an alternative to useState that is more suitable for managing state in scenarios where the state logic is complex or involves multiple sub-values, or when the next state depends on the previous one.
+#### useReducer can help to avoid duplicating state logic across multiple useState calls by encapsulating the logic within the reducer function.
+
 14. Cart
 15. React Router and useCallback
 16. Cocktails
