@@ -52,6 +52,12 @@
 10. Grocery Bud
 
 # useRef
+#### The useRef Hook allows you to persist values between renders.
+#### It can be used to store a mutable value that does not cause a re-render when updated. This is because changing the current property of the useRef object doesn't trigger a re-render
+#### It can be used to access a DOM element directly within functional components. This is useful for tasks like focusing an input field, measuring an element's dimensions, or triggering imperative DOM operations.
+#### For example, we can we can access and manipulate DOM elements directly without needing to use traditional DOM manipulation methods like document.getElementById().
+#### The useRef Hook can also be used to keep track of previous state values. This is because we are able to persist useRef values between renders.
+
 11. Navbar
 
 # useContext
@@ -59,6 +65,12 @@
 13. Stripe Submenus
 
 # useReducer and useContext
+#### useReducer is a hook in React that is used for managing complex state logic in your components.
+#### It is an alternative to useState that is more suitable for managing state in scenarios where the state logic is complex or involves multiple sub-values, or when the next state depends on the previous one.
+#### useReducer can help to avoid duplicating state logic across multiple useState calls by encapsulating the logic within the reducer function.
+#### const [state, dispatch] = useReducer(reducer, initialState) accepts 2 arguments: the reducer function and the initial state. Also, the reducer returns an array of 2 items: the current state and the dispatch function.
+#### To update the state call dispatch(action) with the appropriate action object. The action object is then forwarded to the reducer() function that updates the state. If the state has been updated by the reducer, then the component re-renders, and [state, ...] = useReducer(...) hook returns the new state value.
+
 14. Cart
 15. React Router and useCallback
 16. Cocktails
