@@ -13,9 +13,7 @@ Welcome to the tutorial! We'll be building a small, but feature-rich app that le
 
 👉 Every time you see this it means you need to do something in the app!
 
-The rest is just there for your information and deeper understanding. Let's get to it.
-
-Setup
+# Setup
 If you're not going to follow along in your own app, you can skip this section
 
 We'll be using Vite for our bundler and dev server for this tutorial. You'll need Node.js installed for the npm command line tool.
