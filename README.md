@@ -61,6 +61,19 @@
 11. Navbar
 
 # useContext
+# Prop Drilling
+#### In React, "props" is short for "properties". Props are a way to pass data from parent components to child components.
+#### They are immutable and are used to customize and configure child components.
+#### Prop drilling is the process of passing data (props) from a higher-level component to a lower-level component through intermediary components that don't directly use the data themselves.
+#### Modern React development often favors other state management solutions over prop drilling in certain scenarios. 
+#### Why? 
+#### 1.  Prop drilling can lead to increased complexity
+#### 2.  Prop drilling can lead to performance issues due to unnecessary re-renders triggered by changes in props at higher levels of the hierarchy
+#### 3. Modifying the data flow may require updates to multiple components, increasing the risk of introducing bugs and making maintenance more time-consuming.
+#### 4. The React Context API, combined with hooks like useContext, provides a way to share state across multiple components without the need for prop drilling. 
+#### The useContext hook is based on Context API and works on the mechanism of Provider and Consumer. Provider needs to wrap components inside Provider Components in which data have to be consumed. Then in those components, using the useContext hook that data needs to be consumed.
+
+
 12. Modal And Sidebar
 13. Stripe Submenus
 
