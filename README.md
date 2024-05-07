@@ -63,7 +63,7 @@
 # useContext
 # Prop Drilling
 #### In React, "props" is short for "properties". Props are a way to pass data from parent components to child components.
-#### They are immutable and are used to customize and configure child components.
+#### They are immutable (read-only) and are used to customize and configure child components.
 #### Prop drilling is the process of passing data (props) from a higher-level component to a lower-level component through intermediary components that don't directly use the data themselves.
 #### Modern React development often favors other state management solutions over prop drilling in certain scenarios. 
 #### Why? 
