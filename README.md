@@ -85,8 +85,86 @@
 #### To update the state call dispatch(action) with the appropriate action object. The action object is then forwarded to the reducer() function that updates the state. If the state has been updated by the reducer, then the component re-renders, and [state, ...] = useReducer(...) hook returns the new state value.
 
 # React Router
-```npm install react-router-dom
+####  Routing refers to the process of determining which UI component should be displayed to the user based on the current URL or location within the application.
+#### Create-React-App doesn't include page routing.
+#### A separate library named React Router enables routing in React applications and allows defining multiple routes in an application.
 
+### React Router vs. React Router DOM: the Difference
+#### react-router is the core package containing standard components and functionalities to implement routing in React applications.
+#### react-router-dom is a specialized package that you can use only in web-browser-based application development. It exports react-router as a dependency and has additional DOM (document object model) bindings such as <BrowserRouter> and <Link>.
+
+### When to Use Which
+####  react-router-dom when working on a web app, because it contains all the necessary common components and features essential for routing in a web application.
+
+### How to Use React Router DOM
+#### Step 1: Install Package
+```
+npm install react-router-dom
+```
+#### Step 2: Import <BrowserRouter>
+```
+import { BrowserRouter, Route } from 'react-router-dom';
+
+function App() {
+ return (
+  <BrowserRouter>
+
+  </BrowserRouter>
+ );
+}
+
+export default App;
+```
+#### Step 3: Import and use the child component, <Route>.
+```
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from './components/about';
+import Home from './components/home';
+
+function App() {
+ return (
+  <BrowserRouter>
+   <div><Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+   </div>
+  </BrowserRouter>
+ );
+}
+```
+
+#### As the URL changes to the specified paths, the UI also changes to display the specific component. The following are several components that we can use in our application: 
+#### <BrowserRouter>: BrowserRouter is a parent component in react-router-dom that stores all the other route components. Allowing the declaration of individual routes is the main functionality of using BrowserRouter in the application.
+#### <Routes>: Routes is a new component introduced in v6 that replaces the switch component. 
+#### <Route>: Route is the child component that renders a specific UI component when the URL matches the specified path. The path attribute specifies the path name we assign to the component and the element attribute refers to the component to render when the URL matches.
+#### <Link>: As its name suggests, Link allows a user to navigate to another page by clicking on it. For instance, you can use it when creating the application’s navigation bar. 
+
+```
+function Navbar() {
+  return (
+    <nav>
+          <Link to="/">Home</Link>
+          <Link to="/profile">Profile</Link>
+    </nav>
+  )
+}
+```
+### Handling 'Not Found' Pages
+#### There may be instances when users attempt to access a path that does not exist within the application. In such instances, you can set an asterisk (*) as the path to direct the user to the Page Not Found page.
+```
+<BrowserRouter><Routes><Route path="/" element={<Home />} />
+       <Route path="/about" element={<About />} />
+       <Route path="*" element={<PageNotFound />} />
+   </Routes>
+</BrowserRouter>
+```
+#### In summary React Router is used in React applications to:
+#### - Enable navigation between different views or pages within the application.
+#### - Define URL patterns and route mappings for different UI components.
+#### - Implement client-side routing, allowing for a more fluid and interactive user experience without full page reloads.
+#### - Organize and structure the application's UI layout and navigation hierarchy.
+#### - Support features such as nested routing, route parameters, and history management.
 
 14. Cart
 15. React Router and useCallback
