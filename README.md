@@ -84,6 +84,10 @@
 #### const [state, dispatch] = useReducer(reducer, initialState) accepts 2 arguments: the reducer function and the initial state. Also, the reducer returns an array of 2 items: the current state and the dispatch function.
 #### To update the state call dispatch(action) with the appropriate action object. The action object is then forwarded to the reducer() function that updates the state. If the state has been updated by the reducer, then the component re-renders, and [state, ...] = useReducer(...) hook returns the new state value.
 
+# React Router
+```npm install react-router-dom
+
+
 14. Cart
 15. React Router and useCallback
 16. Cocktails
