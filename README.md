@@ -135,10 +135,10 @@ function App() {
 ```
 
 #### As the URL changes to the specified paths, the UI also changes to display the specific component. The following are several components that we can use in our application: 
-#### BrowserRouter: BrowserRouter is a parent component in react-router-dom that stores all the other route components. Allowing the declaration of individual routes is the main functionality of using BrowserRouter in the application.
-#### Routes: Routes is a new component introduced in v6 that replaces the switch component. 
-#### Route: Route is the child component that renders a specific UI component when the URL matches the specified path. The path attribute specifies the path name we assign to the component and the element attribute refers to the component to render when the URL matches.
-#### Link: As its name suggests, Link allows a user to navigate to another page by clicking on it. For instance, you can use it when creating the application’s navigation bar. 
+#### 1. BrowserRouter: BrowserRouter is a parent component in react-router-dom that stores all the other route components. Allowing the declaration of individual routes is the main functionality of using BrowserRouter in the application.
+#### 2. Routes: Routes is a new component introduced in v6 that replaces the switch component. 
+#### 3. Route: Route is the child component that renders a specific UI component when the URL matches the specified path. The path attribute specifies the path name we assign to the component and the element attribute refers to the component to render when the URL matches.
+#### 4. Link: As its name suggests, Link allows a user to navigate to another page by clicking on it. For instance, we can use it when creating the application’s navigation bar. 
 
 ```
 function Navbar() {
