@@ -1,4 +1,5 @@
 # Reviews Slider
+https://employee-detail-review.netlify.app
 
 The Reviews Slider is a dynamic slider application built with React.
 It displays reviews from different people, allowing users to cycle through them either automatically or using navigation buttons.
