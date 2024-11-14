@@ -1,3 +1,4 @@
+https://drop-down-accordion.netlify.app
 An accordion is a graphical control element comprising a vertically stacked list of items, such as labels or thumbnails.
 
 Each item can be "expanded" or "stretched" to reveal the content associated with that item. Conversely, an item can also be "collapsed" or "closed" to hide its associated content.
